@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhiya S M | Software Developer & KGCAS Student</title>
+  <meta name="description" content="Portfolio of Dhiya S M - Computer Science student at KG College of Arts and Science (KGCAS). Core Java, OOP Systems, Data Structures & Web Development.">
+  <meta name="author" content="Dhiya S M">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo">
+        <span class="logo-mark">D</span>
+        <span class="logo-text">Dhiya S M</span>
+      </a>
+
+      <nav class="nav" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <a href="#contact" class="btn btn-primary nav-cta">Let's talk</a>
+        <button class="menu-btn" id="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>KG College of Arts and Science • Available for Roles</span>
+          </div>
+          
+          <div class="hero-badge">Welcome to my portfolio</div>
+          
+          <div class="hero-title-wrap">
+            <h1 class="hero-title">Hi, I'm Dhiya.</h1>
+            <svg class="hero-squiggle" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 14C32 4 48 22 74 12C92 5 106 14 116 10" stroke="var(--accent-ember)" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+          </div>
+
+          <p class="hero-tagline">Building thoughtful software & modern web experiences.</p>
+          
+          <p class="hero-description">
+            Computer Science student at <strong>KG College of Arts and Science (KGCAS)</strong> with a strong foundation in Core Java, Object-Oriented design, and responsive web technologies. Dedicated to writing clean, maintainable, human-crafted code.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+          </div>
+
+          <div class="hero-contact-quick">
+            <a href="mailto:dhiya2330@gmail.com" class="quick-link">
+              <span class="icon">✉️</span> dhiya2330@gmail.com
+            </a>
+            <span class="divider">•</span>
+            <a href="tel:9047432527" class="quick-link">
+              <span class="icon">📞</span> +91 9047432527
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-backdrop"></div>
+          <div class="decorative-rays">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="avatar-container">
+            <img src="profile.png" alt="Portrait of Dhiya S M - Student at KG College of Arts and Science" class="hero-avatar">
+            <div class="avatar-tag">
+              <span class="avatar-tag-dot"></span>
+              <span>KGCAS Scholar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Tech Pill Strip -->
+    <section class="featured-strip reveal">
+      <div class="container">
+        <div class="tech-pills">
+          <span class="pill pill-orange">Core Java</span>
+          <span class="pill pill-blue">HTML5</span>
+          <span class="pill pill-yellow">CSS3</span>
+          <span class="pill pill-red">JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Academic Foundation & Practical Software Engineering</h2>
+          <p class="section-subtitle">Dedicated student, logical problem solver, and aspiring software developer.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <div class="about-lead-badge">⚡ Computer Science Student • Software Craftsperson</div>
+            <h3>Hello & Welcome!</h3>
+            <p>
+              I am <strong>Dhiya S M</strong>, a passionate Computer Science student studying at <strong>KG College of Arts and Science (KGCAS)</strong> in Coimbatore. I love understanding how software works under the hood and creating applications that are efficient, structured, and easy for people to use.
+            </p>
+            <p>
+              My development philosophy focuses on core fundamentals: solid object-oriented programming in <strong>Java</strong>, structured relational database logic, and semantic web development with <strong>HTML5, CSS3, and JavaScript</strong>. I value writing clean, human-readable code over unnecessary shortcuts.
+            </p>
+            <p>
+              Whether developing backend logic such as a <em>Bank Account Management System</em> or designing responsive user interfaces, I approach every challenge with curiosity, thoroughness, and enthusiasm to learn and deliver quality work.
+            </p>
+
+            <div class="about-highlights-bar">
+              <div class="highlight-chip"><span class="chip-dot"></span><span>Clean Code Discipline</span></div>
+              <div class="highlight-chip"><span class="chip-dot"></span><span>Java & OOP Design</span></div>
+              <div class="highlight-chip"><span class="chip-dot"></span><span>Responsive Web Design</span></div>
+              <div class="highlight-chip"><span class="chip-dot"></span><span>Data Structures & Logic</span></div>
+            </div>
+          </div>
+
+          <div class="about-cards">
+            <div class="info-card reveal">
+              <div class="info-icon">🎓</div>
+              <div>
+                <h4>Institution</h4>
+                <p>KG College of Arts and Science (KGCAS)</p>
+              </div>
+            </div>
+
+            <div class="info-card reveal">
+              <div class="info-icon">💻</div>
+              <div>
+                <h4>Core Technical Focus</h4>
+                <p>Core Java, OOP Systems, Web Technologies</p>
+              </div>
+            </div>
+
+            <div class="info-card reveal">
+              <div class="info-icon">📍</div>
+              <div>
+                <h4>Location & Communication</h4>
+                <p>Coimbatore, India • English & Tamil</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Featured Project</h2>
+          <p class="section-subtitle">Real-world application showcasing object-oriented logic and practical development.</p>
+        </div>
+
+        <div class="projects-single-wrap">
+          <!-- Main Project: Bank Account Management System -->
+          <div class="project-card featured-project-card reveal">
+            <div class="project-badge-wrap">
+              <span class="project-badge">Featured Repository</span>
+              <span class="project-lang-pill">Java</span>
+            </div>
+
+            <div class="project-main-content">
+              <div class="project-icon-large">🏦</div>
+              <h3 class="project-title">Bank Account Management System</h3>
+              
+              <p class="project-summary">
+                A robust, interactive Java console application implementing core banking operations with strict object-oriented principles. Provides encapsulated account balance management, transaction history tracking using Java Collections (<code>ArrayList</code>), and comprehensive input validation for deposit and withdrawal operations.
+              </p>
+
+              <div class="project-feature-list">
+                <div class="feature-item">
+                  <span class="feature-bullet">✓</span>
+                  <span><strong>Encapsulated OOP Design:</strong> Structured with <code>BankAccount</code> state and <code>BankManagementSystem</code> controller.</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-bullet">✓</span>
+                  <span><strong>Audit & History:</strong> Complete dynamic transaction logging tracking all deposits, withdrawals, and balance updates.</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-bullet">✓</span>
+                  <span><strong>Input & Funds Validation:</strong> Guards against invalid amounts, negative deposits, and overdraft attempts.</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-bullet">✓</span>
+                  <span><strong>Documentation & Presentation:</strong> Includes comprehensive project documentation and technical slide deck.</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Java SE</span>
+                <span class="tag">OOP (Encapsulation)</span>
+                <span class="tag">ArrayList</span>
+                <span class="tag">Data Structures</span>
+                <span class="tag">Console I/O</span>
+                <span class="tag">Git Version Control</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/Dhiya2330/Java-Project.git" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Explore Repository on GitHub</span>
+                </a>
+                <a href="https://github.com/Dhiya2330" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                  <span>View GitHub Profile</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Technical Competencies</h2>
+          <p class="section-subtitle">Core technologies and developer proficiencies practiced in software building.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: Java & Backend -->
+          <div class="skill-category reveal">
+            <div class="cat-header">
+              <span class="cat-icon">☕</span>
+              <h3>Core Java & OOP Systems</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>Java Programming:</strong> Strong understanding of Core Java syntax, methods, and loops</li>
+              <li><strong>Object-Oriented Design:</strong> Practical mastery of encapsulation, inheritance, and polymorphism</li>
+              <li><strong>Collections Framework:</strong> Utilizing <code>ArrayList</code> and dynamic data structures</li>
+              <li><strong>Error & Exception Handling:</strong> Safe input parsing, condition guards, and validation checks</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 2: Web Development -->
+          <div class="skill-category reveal">
+            <div class="cat-header">
+              <span class="cat-icon">🌐</span>
+              <h3>Web Development</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>HTML5:</strong> Semantic markup, structured forms, and accessibility standards</li>
+              <li><strong>CSS3:</strong> Flexbox, CSS Grid layouts, custom properties, and micro-animations</li>
+              <li><strong>JavaScript (ES6+):</strong> Modern DOM manipulation, event listeners, and interactive UI states</li>
+              <li><strong>Responsive Design:</strong> Mobile-first layouts that adapt seamlessly to all screen sizes</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 3: Databases & Tools -->
+          <div class="skill-category reveal">
+            <div class="cat-header">
+              <span class="cat-icon">🛠️</span>
+              <h3>Tools & Workflow</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>Git & GitHub:</strong> Version control, branch management, commit hygiene, and repository hosting</li>
+              <li><strong>Database Fundamentals:</strong> Relational schema concepts, tables, primary keys, and SQL queries</li>
+              <li><strong>IDE & Editors:</strong> Proficient in VS Code and developer command line</li>
+              <li><strong>Clean Code Architecture:</strong> Writing readable, human-crafted code without unnecessary dependencies</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 4: Professional Strengths -->
+          <div class="skill-category reveal">
+            <div class="cat-header">
+              <span class="cat-icon">💡</span>
+              <h3>Professional Strengths</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>Logical Problem Solving:</strong> Deconstructing complex programming assignments into modular steps</li>
+              <li><strong>Rapid Learning:</strong> Quick to adapt to new APIs, development tools, and programming paradigms</li>
+              <li><strong>Attention to Detail:</strong> Dedication to functional accuracy, UI refinement, and clean documentation</li>
+              <li><strong>Team Collaboration:</strong> Clear communication, receptive to feedback, and dependable team player</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Certifications Section -->
+    <section id="certifications" class="section certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Professional Certifications</h2>
+          <p class="section-subtitle">Verified coursework and technical credentials strengthening my software engineering capabilities.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <span class="cert-icon">☁️</span>
+              <span class="cert-badge">NPTEL</span>
+            </div>
+            <h3 class="cert-title">Cloud Computing and Distributed Systems</h3>
+            <p class="cert-sub">NPTEL Certification</p>
+            <p class="cert-desc">Explored distributed architectures, virtualization models, cloud infrastructure, and parallel processing fundamentals.</p>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <span class="cert-icon">⚡</span>
+              <span class="cert-badge">Core DSA</span>
+            </div>
+            <h3 class="cert-title">C Programming with DSA Foundation</h3>
+            <p class="cert-sub">Programming Certification</p>
+            <p class="cert-desc">Mastered low-level memory allocation, pointers, and essential data structures including linked lists, stacks, and sorting logic.</p>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <span class="cert-icon">🐍</span>
+              <span class="cert-badge">Python</span>
+            </div>
+            <h3 class="cert-title">Programming in Python</h3>
+            <p class="cert-sub">Technical Course</p>
+            <p class="cert-desc">Proficiency in Python syntax, object-oriented concepts, modular scripting, and standard libraries for problem solving.</p>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <span class="cert-icon">☕</span>
+              <span class="cert-badge">Enterprise</span>
+            </div>
+            <h3 class="cert-title">Advanced Java Development</h3>
+            <p class="cert-sub">Software Engineering</p>
+            <p class="cert-desc">Advanced concepts including Java Collections framework, multithreading, JDBC database integration, and OOP design patterns.</p>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <span class="cert-icon">📊</span>
+              <span class="cert-badge">Analytics</span>
+            </div>
+            <h3 class="cert-title">Academic Process Mining Fundamentals</h3>
+            <p class="cert-sub">Academic Credential</p>
+            <p class="cert-desc">Techniques for process discovery, conformance checking, and operational analysis of workflows using event logs.</p>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <span class="cert-icon">🍃</span>
+              <span class="cert-badge">NoSQL</span>
+            </div>
+            <h3 class="cert-title">MongoDB Certification</h3>
+            <p class="cert-sub">Database Certification</p>
+            <p class="cert-desc">Hands-on knowledge in document database schema design, indexing, CRUD operations, aggregation pipelines, and NoSQL architecture.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Connect</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-subtitle">Feel free to reach out for internship opportunities, entry-level roles, or project discussions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Get In Touch Directly</h3>
+            <p class="contact-lead">
+              I am actively seeking software development internships and entry-level engineering roles. I am always excited to discuss software projects and collaborate!
+            </p>
+
+            <div class="contact-channels">
+              <a href="mailto:dhiya2330@gmail.com" class="channel-card">
+                <div class="channel-icon">✉️</div>
+                <div>
+                  <span class="channel-label">Email</span>
+                  <strong class="channel-value">dhiya2330@gmail.com</strong>
+                </div>
+              </a>
+
+              <a href="tel:9047432527" class="channel-card">
+                <div class="channel-icon">📞</div>
+                <div>
+                  <span class="channel-label">Phone</span>
+                  <strong class="channel-value">+91 9047432527</strong>
+                </div>
+              </a>
+
+              <a href="https://github.com/Dhiya2330" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="channel-label">GitHub Profile</span>
+                  <strong class="channel-value">github.com/Dhiya2330</strong>
+                </div>
+              </a>
+
+              <div class="channel-card">
+                <div class="channel-icon">🏛️</div>
+                <div>
+                  <span class="channel-label">College</span>
+                  <strong class="channel-value">KG College of Arts and Science (KGCAS)</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="availability-badge">
+              <span class="status-dot"></span>
+              <span>Available for internships & full-time entry opportunities</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card reveal">
+            <h3>Send a Message</h3>
+            <p class="form-desc">Fill in the fields below to send a direct message directly to Dhiya S M.</p>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Recruiter / HR Manager" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email Address</label>
+                <input type="email" id="email" name="email" placeholder="e.g. recruiter@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="e.g. Software Role / Interview Invitation" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Hi Dhiya, I reviewed your profile and Java project and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+              
+              <div id="form-status" class="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-logo">Dhiya S M</span>
+        <p>Computer Science Student @ KG College of Arts and Science • Software Developer</p>
+      </div>
+
+      <div class="footer-center">
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+          ↑ Back to top
+        </button>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Dhiya S M • Crafted with semantic HTML5, pure CSS & vanilla JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="script.js"></script>
+</body>
+</html>
